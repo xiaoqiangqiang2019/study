@@ -36,8 +36,8 @@
 #### 拉取项目注意要点：
     * 拉取项目之前，新建的文件夹必须初始化git init,然后再git remote add 配置远程仓库  
       然后通过git fetch和git merge下载项目到本地  
-      
-      **git pull可以理解为：git fetch跟git merge**
+
+      ** git pull可以理解为：git fetch跟git merge **
      
         * 保险点的做法
          git fetch orgin master //将远程仓库的master分支下载到本地当前branch中
