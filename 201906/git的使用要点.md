@@ -33,7 +33,22 @@
     git fetch 项目名  (从远程仓库下载新分支与数据)  
     git merge 项目名/master  (从远端仓库提取数据并尝试合并到当前分支)
 
-#### 注意要点：
-    必须先git add 文件或者文件夹，然后再git add . 暂存文件  
-    再git commit -m "备注" 提交到本地  
-    最后才能 git push 项目 到远程github仓库中。
+#### 拉取项目注意要点：
+    * 拉取项目之前，新建的文件夹必须初始化git init,然后再git remote add 配置远程仓库  
+      然后通过git fetch和git merge下载项目到本地  
+      <font color=red>git pull可以理解为：git fetch跟git merge</font>
+     
+        * 保险点的做法
+         git fetch orgin master //将远程仓库的master分支下载到本地当前branch中
+　       git log -p master  ..origin/master //比较本地的master分支和origin/master分支的差别
+    　   git merge origin/master //进行合并
+
+        * 也可以用以下指令：
+         git fetch origin master:tmp //从远程仓库master分支获取最新，在本地建立tmp分支  
+         git diff tmp //將當前分支和tmp進行對比  
+         git merge tmp //合并tmp分支到当前分支
+
+#### 提交项目主要要点：
+        * 必须先git add 文件或者文件夹，然后再git add . 暂存文件  
+          再git commit -m "备注" 提交到本地  
+          最后才能 git push 项目 到远程github仓库中。
