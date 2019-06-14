@@ -42,8 +42,8 @@
       ** git pull可以理解为：git fetch跟git merge **
      
         * 保险点的做法
-         git fetch orgin master //将远程仓库的master分支下载到本地当前branch中
-　       git log -p master  ..origin/master //比较本地的master分支和origin/master分支的差别
+         git fetch orgin master //将远程仓库的master分支下载到本地当前branch中  
+         git log -p master  ..origin/master //比较本地的master分支和origin/master分支的差别  
     　   git merge origin/master //进行合并
 
         * 也可以用以下指令：
