@@ -55,3 +55,12 @@
         * 必须先git add 文件或者文件夹，然后再git add . 暂存文件  
           再git commit -m "备注" 提交到本地  
           最后才能 git push 项目 到远程github仓库中。
+
+#### 给其他人的github项目提交pull request
+	      fork那个项目  
+	      然后在自己fork好的项目上 use ssh 的方式  clone 到本地开发环境中修改代码  
+	      git add -A  
+	      git commit -m "some change"  
+	      git push  
+	      然后回到自己fork好的项目页面 clone or download 左下方有个 Pull request  
+	      点击 就可以提交这个pull request给原作者了
