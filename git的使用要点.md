@@ -31,7 +31,9 @@
     git pull 项目名 master  (拉取项目到本地)  
     git push 项目名 master  (推送项目到远程github仓库中)  
     git fetch 项目名  (从远程仓库下载新分支与数据)  
-    git merge 项目名/master  (从远端仓库提取数据并尝试合并到当前分支)
+    git merge 项目名/master  (从远端仓库提取数据并尝试合并到当前分支)  
+    git checkout 分支名 (切换到分支)  
+    git pull main 分支名 (拉取主仓库的分支名 分支最新的代码到本地，跟本地分支名 合并)
 
 #### 拉取项目注意要点：
     * 拉取项目之前，新建的文件夹必须初始化git init,然后再git remote add 配置远程仓库  
