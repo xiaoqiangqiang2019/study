@@ -1,5 +1,5 @@
 # Linux常用命令集合
-* 简单命令
+* 简单自己常用命令
     1. cd
     2. ls
     3. passwd
@@ -24,4 +24,6 @@
         screen -r abc  取回窗口
         ctrl+a+d 断开窗口，保留状态。
     19. top 查看服务器状态
+* 其他命令
+https://github.com/xiaoqiangqiang2019/Python-100-Days/blob/master/Day31-35/31.%E7%8E%A9%E8%BD%ACLinux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md    
     
