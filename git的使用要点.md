@@ -19,7 +19,7 @@
     ssh-keygen -t rsa -C "你自己的邮箱"  (生成ssh公钥)  
 
 #### GitHub配置  
-    +号--Settings--SSH and GPG keys
+    +号--Settings--SSH and GPG keys(id_rsa.pub填入这个密匙)
 #### 配置远程仓库
     git remote add  远程仓库的名称（随意） 刚才复制的远程仓库的地址（这个很重要，不能错）  
     ssh -T git@github.com  (测试配置是否正确)  
