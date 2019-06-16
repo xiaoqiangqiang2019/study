@@ -79,5 +79,5 @@
 * https://blog.csdn.net/u012736685/article/details/84979102  GitHub上如何进行PR(Pull Request)操作——简版
 
 #### github如何实现fork的项目与原项目同步
-* [三种方式](201906\6.16\github如何实现fork的项目与原项目同步.md)
+* [三种方式](201906/6.16/github如何实现fork的项目与原项目同步.md)
 * https://www.jianshu.com/p/fede3333205f 
