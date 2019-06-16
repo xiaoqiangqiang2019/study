@@ -64,3 +64,8 @@
 	      git push  
 	      然后回到自己fork好的项目页面 clone or download 左下方有个 Pull request  
 	      点击 就可以提交这个pull request给原作者了
+
+### 新建目录复制项目只要执行以下操作
+* 在文件夹上直接右键Git Bash Here
+* git init   (初始化)
+* git remote add  远程仓库的名称（随意） 刚才复制的远程仓库的地址（这个很重要，不能错）          
