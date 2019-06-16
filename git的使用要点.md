@@ -34,6 +34,7 @@
     git merge 项目名/master  (从远端仓库提取数据并尝试合并到当前分支)  
     git branch 分支名 (创建分支)
     git checkout 分支名 (切换到分支) 
+    git checkout -b 分支名 (创建并切换分支，有分支名就切换，没有就创建分支切换)
     git branch -d 分支名 (删除分支) 
     git pull main 分支名 (拉取主仓库的分支名 分支最新的代码到本地，跟本地分支名 合并)
 
