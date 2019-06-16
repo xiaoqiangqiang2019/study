@@ -32,7 +32,9 @@
     git push 项目名 master  (推送项目到远程github仓库中)  
     git fetch 项目名  (从远程仓库下载新分支与数据)  
     git merge 项目名/master  (从远端仓库提取数据并尝试合并到当前分支)  
-    git checkout 分支名 (切换到分支)  
+    git branch 分支名 (创建分支)
+    git checkout 分支名 (切换到分支) 
+    git branch -d 分支名 (删除分支) 
     git pull main 分支名 (拉取主仓库的分支名 分支最新的代码到本地，跟本地分支名 合并)
 
 #### 拉取项目注意要点：
@@ -69,3 +71,12 @@
 * 在文件夹上直接右键Git Bash Here
 * git init   (初始化)
 * git remote add  远程仓库的名称（随意） 刚才复制的远程仓库的地址（这个很重要，不能错）          
+
+### github合并别人的pull request
+* https://github.com/xiaoqiangqiang2019/the-craft-of-selfteaching/blob/master/markdown/02.proof-of-work.md 
+* https://boxueio.com/series/git-essential/ebook/459  pull request具体操作
+* https://www.jianshu.com/p/ebad936fac4d  合并别人代码的两种情况
+* https://blog.csdn.net/u012736685/article/details/84979102  GitHub上如何进行PR(Pull Request)操作——简版
+
+#### github如何实现fork的项目与原项目同步
+https://www.jianshu.com/p/fede3333205f 
