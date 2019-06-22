@@ -16,3 +16,5 @@ Anaconda指的是一个开源的Python发行版本，其包含了conda、Python�
 
 # Python3网络爬虫开发实战教程
 https://cuiqingcai.com/5052.html
+
+* 本地mysql端口8816 连接ip：127.0.0.1 密码为空
