@@ -59,6 +59,8 @@
         * 必须先git add 文件或者文件夹，然后再git add . 暂存文件  
           再git commit -m "备注" 提交到本地  
           最后才能 git push 项目 到远程github仓库中。
+### 撤销git commit
+          git reset --soft HEAD^(撤销最近的一次commit，用于还没push的本地commit)       
 
 #### 给其他人的github项目提交pull request
 	      fork那个项目  
